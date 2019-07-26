@@ -29,7 +29,7 @@ class App extends Component {
       <div className="App">
         <h2>ReactJs Project</h2>
         <Search
-          placeholder="search users"
+          placeholder="search all users"
           handlechange={e => this.setState({ searchField: e.target.value })}
         />
         <CardList monsters={filteredMonsters} />
